@@ -8,13 +8,16 @@ section{
 }
 .first-section{
     background-image: url(../img/header-bg.png);
-    background-position: center;.
+    background-position: center;
     background-repeat: no-repeat;
 }
 .half-width{
     margin-left: 5%;
     width: 40%;
     float: left;
+}
+.first-img img{
+    width: 100% !important;
 }
 .half-width img{
     width: 80%;
