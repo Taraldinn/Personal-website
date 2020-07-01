@@ -1,74 +1,88 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
-section{
+
+section {
     height: 700px;
     padding-bottom: 50px;
 
 }
-.first-section{
+
+.first-section {
     background-image: url(../img/header-bg.png);
     background-position: center;
     background-repeat: no-repeat;
 }
-.half-width{
+
+.half-width {
     margin-left: 5%;
     width: 40%;
     float: left;
+    margin-top: 5%;
 }
-.first-img img{
+
+.first-img img {
     width: 100% !important;
 }
-.half-width img{
+
+.half-width img {
     width: 80%;
 }
-.half-width img:hover{
+
+.half-width img:hover {
     transform: scale(1.3);
 }
-.half-width h1{
+
+.half-width h1 {
     font-size: 60px;
-    color:#202428;
+    color: #202428;
     font-weight: lighter;
 
 }
-.half-width h1 span{
-   color:#EC4C7A;
-   font-weight: bolder;
-}   
-.half-width p{
+
+.half-width h1 span {
+    color: #EC4C7A;
+    font-weight: bolder;
+}
+
+.half-width p {
     color: #646161;
     font-family: sans-serif;
     font-size: 18px;
-    
+
 }
 
-.anchor-button{
+.anchor-button {
     text-decoration: none;
     background-color: #EC4C7A;
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
-    
+
 }
-.anchor-button:hover{
-   
+
+.anchor-button:hover {
+
     background-color: tomato;
     padding: 11px 43px;
 
 }
-.second-section{
+
+.second-section {
     background-image: url(../img/biography-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     height: 600px;
-    
+
 
 }
-.Biography h1{
-font-weight: normal;
+
+.Biography h1 {
+    font-weight: normal;
 }
-.only-h1{
+
+.only-h1 {
     text-align: center;
     padding-top: 20px;
     font-size: 25px;
@@ -76,85 +90,95 @@ font-weight: normal;
     font-family: sans-serif;
 
 }
-.third-section{
-    background-image: url(../img/latest-work-bg.png) ;
-    background-position:center;
-    background-repeat: no-repeat;  
+
+.third-section {
+    background-image: url(../img/latest-work-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
     height: 500px;
 
- 
+
 }
-.my-project{
+
+.my-project {
     padding-left: 4%;
 }
-.my-project img{
-   width: 30%;
-   
+
+.my-project img {
+    width: 30%;
+
 }
-.my-project img:hover{
+
+.my-project img:hover {
     transform: scale(1.5);
 }
-.fourth-section{
+
+.fourth-section {
     background-image: url(../img/footer-bg.png);
     background-size: 80%;
     background-position: center top;
     background-repeat: no-repeat;
-    height:600px ;
+    height: 600px;
 }
-.fourth-section h1{
+
+.fourth-section h1 {
     font-size: 30px;
     font-weight: 400;
     text-align: center;
 }
-fourth-section h4{
+
+fourth-section h4 {
     font-size: 16px;
     font-weight: normal;
     text-align: center;
 }
-.fourth-section h4{
+
+.fourth-section h4 {
     font-size: 14px;
     font-weight: 300;
     text-align: center;
-   
+
 }
-.fourth-section h6{
+
+.fourth-section h6 {
     font-size: 12px;
     font-weight: normal;
     text-align: center;
     color: #646161;
-    
+
 }
 
 
-.contact{
+.contact {
     color: #fff;
     text-align: center;
     background: linear-gradient(to bottom left, #ec4f92 0%, #ff99cc 109%);
     width: 40%;
-    margin:0 auto;
+    margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 8px;
     font-family: sans-serif;
-    
+
 }
-.contact:hover{
+
+.contact:hover {
     padding-top: 12px;
     padding-bottom: 12px;
 }
-.contact h3{
+
+.contact h3 {
     font-weight: lighter;
     font-size: 15px;
 }
-.contact h1{
+
+.contact h1 {
     font-weight: normal;
     font-size: 20px;
 
 }
-footer{
-text-align: center;
-color: rgb(173, 173, 173);
+
+footer {
+    text-align: center;
+    color: rgb(173, 173, 173);
 }
-
-
-
